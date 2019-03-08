@@ -248,8 +248,8 @@ class Algorithm(object):
         )
 
         # for compatibility with zipline to provide history api
-        self._assets_from_source = \
-            self.asset_finder.retrieve_all(self.asset_finder.sids)
+        # self._assets_from_source = \
+        #     self.asset_finder.retrieve_all(self.asset_finder.sids)
 
         if not self.initialized:
             self.initialize()
